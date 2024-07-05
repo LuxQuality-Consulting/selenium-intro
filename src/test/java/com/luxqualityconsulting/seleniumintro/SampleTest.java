@@ -24,11 +24,11 @@ public class SampleTest
 
         textBox.sendKeys("Selenium");
 
-        Thread.sleep(2000);
+        Thread.sleep(1500);
 
         submitButton.click();
 
-        Thread.sleep(2000);
+        Thread.sleep(1500);
 
         WebElement message = driver.findElement(By.id("message"));
         assertEquals("Received!", message.getText());
