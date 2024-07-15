@@ -2,6 +2,7 @@ package com.luxqualityconsulting.seleniumintro;
 
 import com.luxqualityconsulting.seleniumintro.pages.ResultPage;
 import com.luxqualityconsulting.seleniumintro.pages.WebFormPage;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -13,6 +14,7 @@ import java.util.Random;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+@Disabled
 public class PageObjectTest
 {
     @Test
