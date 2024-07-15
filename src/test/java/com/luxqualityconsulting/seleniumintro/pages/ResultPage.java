@@ -5,8 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 // page_url = https://www.selenium.dev/selenium/web/submitted-form.html
 public class ResultPage {
     private WebDriver driver;
